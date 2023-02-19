@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment 1 </title>
+        <link rel="stylesheet" href="Assignment.css">
+        <base href="url">
+        <meta charset="UTF-8">    
+        <meta name="keywords" content="HTML,CSS,References,Examples">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            aside {
+              width: 30%;
+              height: 50;
+              padding-left: 15px;
+              margin-left: 15px;
+              float: right;
+              font-style: bold;
+              background-color: rgb(36, 35, 35);
+              color: azure;
+            }
+            #a{
+                color: red;
+                font-style:italic;
+                text-align: center;
+            }
+            header nav{
+            background-color: #757070;
+            text-align: right;
+            display:inline-block;
+            height: 30px;
+            }
+            data:hover::after {
+            content: ' (cost ' attr(value) ')';
+            font-size: .7em;
+            }
+          </style>
+    </head>
+    <body>
+        <!-- structural tags -->
+        <header>
+          <h3 > HOME </h3>
+            <nav>
+             <a href="..">  Contacts </a>
+             <a href="..">  About  </a>
+             <a href="..">  Details  </a>
+            </nav>
+         </header></br></br>
+       <p> this is <a href="https://111.93.16.209/sz/"> click for details. </a></p>
+       <h1> heading</h1>
+       <main>
+         <article>
+           this is artical tag 
+         </article></br>
+         <aside   id="n">
+           this is aside which will be right of the window
+           ..................
+         </aside>
+         <div id="a">
+           <h2> hii friends </h2>
+           <p> my name is 
+                  nithin
+            </p>
+         </div>
+         <hr>
+          <hgroup>
+           <h4> hii </h4>
+           <h5> everyone </h5>
+         </hgroup>
+       </main>
+       <p>Here is some <span style="color:red;">different</span> text.</p>
+       <details>
+        <summary> what is your name </summary>
+        <p> my name is nithin </p>
+         </details><br>
+          <!-- form tags-->
+          <p>first Name<input type="text" name="name" placeholder="First Name"/></p>
+            <button type="submit" value="submit"> Submit </button>
+            <button type="reset" value="reset"> Reset</button>
+            <p> enter your favorite colour</p>
+            <input type="text" list="colours" name="colour">
+            <datalist id="colours">
+              <option value="red">
+              <option value="pink">
+              <option value="green">
+              <option value="blue">
+            </datalist>
+            <input type="submit" value="submit">
+            <dialog open style="left: auto;">
+              <p>Are you sure you want to delete this item?</p>
+              <button type="button" >Yes</button>
+              <button type="button">No</button>
+          </dialog><br><br>
+          <hr>
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" >
+            <label for="female">Female</label>
+        </fieldset><br><br>
+        <form action="action.php" method="post">
+            <spam style="color:brown;font-size:25px" ><b>course:</b></spam>
+            <select name="course">
+               <optgroup label="cse">
+                  <option  value="Ai"><label>Ai</option>
+                  <option  value="cse"><label>cse</option>
+                  <option  value="ds"><label>ds</option>
+               </optgroup>
+               <optgroup label="non cse">
+                  <option  value="mec"><label>mec</option>
+                  <option  value="ece"><label>ece<e/option>
+                   <option  value="civil"><label>civil</option>
+               </optgroup>
+            </select>
+              <p><b>Address:</b>  </p>
+              <textarea cols="60" rows="5" style="background-color: antiquewhite;" >
+                write here...
+              </textarea>
+        </form>
+        <p>
+          Heat the oven to <meter min="200" max="500" value="350">350 degrees</meter>.
+        </p>
+        <p>
+          He got a <meter low="69" high="80" max="100" value="84">a</meter> on the exam.
+        </p>
+        <table height="300" border="1" >
+          <caption style="color:red"><b> Table</b></caption>
+          <tr style="background-color: aqua">
+              <th rowspan="3" width="80" height="150" > r1c1</th>
+              <th height="20" colspan="2" rowspan="2" > r1c2</th>
+              <th> r1c3</th>
+              <th colspan="2"rowspan="2"> r1c4</th>
+
+          </tr>
+          <tr style="background-color: blanchedalmond">
+              <th> r2c1 </th> 
+          </tr>
+          <tr style="background-color: gray">
+              <th width="80" height="110"> r3c1</th>
+              <th width="80"> r3c2 </th>
+              <th width="80"> r3c2 </th>
+              <th width="80"> r3c4 </th>
+              <th width="80"> r3c5 </th>
+          </tr>
+          <tr style="background-color:salmon">
+              <th height="50%"> r4c1</th>
+              <th width="80"> r4c2 </th>
+              <th width="80"> r4c3 </th>
+              <th width="80"> r4c4 </th>
+              <th width="80"> r4c5 </th>
+              <th width="80"> r4c6 </th>
+      </table>
+      <!-- Formating tags-->
+      <p> i have persuied my diploma in <addr title="Government institute of electronics"><b>G.I.O.E.</b></addr> collage in secunderabad </p>
+      <p dir="rtl">all are <bdi>welcome</bdi> is automatically displayed left-to-right.</p>
+      <blockquote>
+        <p>This is an example of a long quotation.</p>
+    </blockquote>
+    <p> my favorite movie is <cite> real steel</cite></p>
+    <p> this is <code> computer code </code> in html</p>
+    <ul>
+      <li><data value="100">orange</data></li>
+      <li><data value="205">apple</data></li>
+      <li><data value="40">banana</data></li>
+  </ul>
+      <p> my favorite colour is <del> blue </del> navy blue </p>
+      <p>The <dfn title="Hyper Text Markup Language">HTML</dfn> language of the World Wide Web.</p>
+       <em> emphasaied text </em> <br>
+       <i> incline text </i><br>
+       <ins> underlined text </ins><br>
+       <p>Please, input "<kbd>Yes</kbd>" or "<kbd>No</kbd>"</p>
+       <p> my name is <mark>nithin </mark></p>
+       <pre>
+        How 
+           are 
+              you
+       </pre>
+       <q> i am fine today </q>
+       <p> this is <samp> sample text </samp></p>
+       <p> ant is <small>small</small></p>
+       <p>eleohant is <strong> strong </strong></p>
+       <p>H<sub>2</sub>O</p>
+       <p>x<sup>3</sup></p>
+       <u> underlined words </u>
+       <p>A simple equation: <var>x</var> = <var>y</var> + 2 </p>
+       <!-- List tags -->
+
+          
+
+
+
+
+
+          <section>
+            <footer>
+              <a href=".."> privacy policy </a>
+              <p> no copy rights </p>
+            </footer>
+          </section>
+          <address style="text-align: right;font-size: 30px; ;">
+            Written by <a href="mailto:nitinjukuri@gmail.com">nithin </a>.<br> 
+            Contact us at 09:30:<br>
+            Post Box 210, Hollywood<br>
+            USA
+          </address>
+        
+
+    </body>
+    
+
+</html>
